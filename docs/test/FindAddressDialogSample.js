@@ -166,7 +166,7 @@
     // 「住所入力」クリック時
     $('#search4map').on('click', function(event){
       if (!!!window.google) {
-        $.getScript('http://maps.googleapis.com/maps/api/js?key=Input_Your_Key', afterGoogleScript);
+        $.getScript('https://maps.googleapis.com/maps/api/js?key=Input_Your_Key', afterGoogleScript);
       } else {
         afterGoogleScript();
       }
